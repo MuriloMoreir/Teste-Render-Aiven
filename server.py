@@ -5,11 +5,11 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 def get_db_connection():
-    conn = psycopg2.connect(host='dpg-cqoc8l2j1k6c73b2mjo0-a.oregon-postgres.render.com',
+    conn = psycopg2.connect(host='pg-3f7b996d-muriloolimora971.f.aivencloud.com',
                             database='movies',
-                            user='dbrender_y2pf_user',
-                            password='uvYL66m3tjKpk4oGnSg0i1Z1jFrdpUoV',
-                            port = '5432')
+                            user='avnadmin',
+                            password='AVNS_BjsAizQig1olY9q0atk',
+                            port = '23734')
     return conn 
 
 
